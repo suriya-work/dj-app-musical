@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../../dj-app-music/components/Layout";
 export default function HomePage() {
   return (
     <Layout>

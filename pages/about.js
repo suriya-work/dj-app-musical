@@ -1,4 +1,4 @@
-import Layout from "../../components/Layout"
+import Layout from '../../dj-app-music/components/Layout'
 export default function About() {
     return (
         <Layout title='About DJ Events'>
