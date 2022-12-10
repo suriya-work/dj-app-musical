@@ -1,21 +1,25 @@
+import { FaMusic } from 'react-icons/fa';
 import Link from 'next/link';
 //style
-import styles from '../styles/header.module.css';
+import styles from '../styles/Header.module.css';
 export default function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.logo}>
                 <Link href='/'>
-                    <p>DJ Events</p>
+                    DJ Events
+                    <FaMusic />
                 </Link>
             </div>
             <nav>
                 <ul>
                     <li>
                         <Link href='/events'>
-                            <p>Events</p>
+                            Events
                         </Link>
                     </li>
+
+
                 </ul>
             </nav>
 
